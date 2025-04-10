@@ -1,0 +1,23 @@
+{
+  "name": "job-queue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src --exec ts-node src/index.ts",
+    "inspect": "redis-commander"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.17",
+    "nodemon": "^3.1.9",
+    "redis-commander": "^0.8.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "ioredis": "^5.6.0"
+  }
+}
